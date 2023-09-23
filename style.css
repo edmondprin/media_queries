@@ -1,0 +1,74 @@
+
+
+/* For small screens like phones */
+
+@media only screen and (max-width: 1000px) {
+   body {
+    background-color: darkgray; 
+    color: white;
+   }
+
+   h1 {
+    font-size: 30px;
+   }
+
+   p {
+    font-size: 24px;
+   }
+}
+ 
+/* For larger tablets, laptops, and desktops */
+@media only screen and (min-width: 1000px) {
+   body {
+    background-color: darkgray;
+    color: white;
+   }
+
+   h1 {
+    font-size: 20px;
+   }
+
+   p {
+    font-size: 14px;
+   }
+}
+
+/* For the printed page */
+@media print {
+  body {
+   background-color: white;
+   color: black;
+   font-size: 12px;
+  }
+}
+
+@media screen and (orientation: landscape) {
+  body {
+    background-color: darkgray;
+    color: white;
+   }
+
+   h1 {
+    font-size: 20px;
+   }
+
+   p {
+    font-size: 14px;
+   }
+}
+
+
+@media screen and (orientation: portrait) {
+  body {
+    background-color: darkgray; 
+    color: white;
+   }
+
+   h1 {
+    font-size: 30px;
+   }
+
+   p {
+    font-size: 24px;
+   }
+}
